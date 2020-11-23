@@ -1,4 +1,4 @@
-#are they permutations?
+#are they permutations? O(n)
 def perm?(str1, str2)
     return false if str1.length != str2.length
     hash1 = {}
